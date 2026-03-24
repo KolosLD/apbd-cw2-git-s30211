@@ -1,4 +1,4 @@
-﻿namespace EquipmentProgram;
+﻿namespace Equipment;
 
 public class Student : User
 {
