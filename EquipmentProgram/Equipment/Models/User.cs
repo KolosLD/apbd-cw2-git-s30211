@@ -8,7 +8,7 @@ public abstract class User
   
  public abstract int MaxRentalLimit { get; }
  
- protected User(string id, string firstName, string lastName)
+ protected User(string firstName, string lastName)
  {
  Id = Guid.NewGuid().ToString().Substring(0, 8);
  FirstName = firstName;
